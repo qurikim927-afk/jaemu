@@ -5,7 +5,6 @@ import {
   HelpCircle, 
   Trophy, 
   Award, 
-  Flame, 
   Sparkles
 } from 'lucide-react';
 
@@ -31,15 +30,6 @@ export default function App() {
       <header className="bg-white border-b border-gray-150/80 py-5 px-4 sm:py-8 sm:px-6 md:px-8" id="main-header">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4" id="header-content-wrapper">
           <div id="app-title-block">
-            <div className="flex items-center gap-2" id="app-logo-badge">
-              <span className="bg-teal-600 text-white font-mono text-[9px] sm:text-[10px] font-extrabold tracking-wider px-1.5 py-0.5 rounded uppercase">
-                Premium Exam Prep
-              </span>
-              <span className="text-gray-300 text-xs">•</span>
-              <span className="text-gray-500 text-[11px] sm:text-xs flex items-center gap-1 font-medium">
-                <Flame className="w-3 h-3 text-orange-500" /> 100% 완전 한글화
-              </span>
-            </div>
             <h1 className="text-xl sm:text-3xl font-sans font-bold tracking-tight text-slate-900 mt-1 flex items-center gap-1.5">
               재무제표 시험 마스터
               <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-teal-500 shrink-0 animate-pulse" />
