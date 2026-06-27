@@ -1,0 +1,6 @@
+{
+  "name": "재무제표 시험 마스터",
+  "description": "재무상태표, 손익계산서, 현금흐름표 등 회계 및 재무비율 시험에 대비한 모의고사, 개념 학습 및 플래시카드 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
